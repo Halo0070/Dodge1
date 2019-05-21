@@ -59,8 +59,8 @@ public class GameManager : MonoBehaviour
             bestTime = surviveTime;
             // 변경된 최고 기록을 BestTime 키로 저장
             PlayerPrefs.SetFloat("BestTime", bestTime);
-            // 최고 기록을 recordText 컴포넌트를 이용해 표시
-            recordText.text = "Best Time: " + (int)bestTime;
         }
+        // 최고 기록을 recordText 컴포넌트를 이용해 표시
+        recordText.text = "Best Time: " + (int)bestTime;
     }
 }
